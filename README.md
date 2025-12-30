@@ -2,6 +2,11 @@
 
 A modern **Single Page Application (SPA)** built with **React + Vite** that fetches and displays products from an external API. The app demonstrates routing, API integration, reusable components, and clean UI/UX — ideal for showcasing front-end development skills
 
+🚀 Live Demo
+
+🔗 Live URL:
+https://monumental-pie-dfd057.netlify.app/
+
 
 ## 📌 Features
 
