@@ -1,0 +1,74 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container to center content */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+nav {
+  background-color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Buttons (if any) */
+button {
+  cursor: pointer;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+/* Dark Mode */
+.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.dark a {
+  color: #4dabf7;
+}
+
+.dark input {
+  background-color: #222;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
+
+.dark nav {
+  border-bottom: 1px solid #555;
+}
+
